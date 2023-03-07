@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://github.pages.io/bsalanie/cupidmatching2/min_distance_utils/">
+        <link rel="canonical" href="https://github.pages.io/bsalanie/cupidmatching2/poisson_glm_utils/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.5.4">
     
     
       
-        <title>Utilities for MDE - Cupid Matching version 2</title>
+        <title>Utilities for Poisson - Cupid Matching version 2</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#min_distance_utils-module" class="md-skip">
+        <a href="#poisson_glm_utils-module" class="md-skip">
           Skip to content
         </a>
       
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Utilities for MDE
+              Utilities for Poisson
             
           </span>
         </div>
@@ -332,59 +332,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Utilities for MDE
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../min_distance_utils/" class="md-nav__link">
         Utilities for MDE
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#bs_cupid_try.min_distance_utils" class="md-nav__link">
-    bs_cupid_try.min_distance_utils
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bs_cupid_try.min_distance_utils.MDEResults" class="md-nav__link">
-    MDEResults
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -408,11 +360,59 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../poisson_glm_utils/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Utilities for Poisson
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Utilities for Poisson
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bs_cupid_try.poisson_glm_utils" class="md-nav__link">
+    bs_cupid_try.poisson_glm_utils
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bs_cupid_try.poisson_glm_utils.PoissonGLMResults" class="md-nav__link">
+    PoissonGLMResults
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -577,15 +577,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#bs_cupid_try.min_distance_utils" class="md-nav__link">
-    bs_cupid_try.min_distance_utils
+  <a href="#bs_cupid_try.poisson_glm_utils" class="md-nav__link">
+    bs_cupid_try.poisson_glm_utils
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#bs_cupid_try.min_distance_utils.MDEResults" class="md-nav__link">
-    MDEResults
+  <a href="#bs_cupid_try.poisson_glm_utils.PoissonGLMResults" class="md-nav__link">
+    PoissonGLMResults
   </a>
   
 </li>
@@ -604,22 +604,22 @@
                 
                   
 
-  <a href="https://github.com/bsalanie/bs_cupid_try/edit/master/docs/min_distance_utils.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/bsalanie/bs_cupid_try/edit/master/docs/poisson_glm_utils.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-<h1 id="min_distance_utils-module"><code>min_distance_utils</code> module<a class="headerlink" href="#min_distance_utils-module" title="Permanent link">&para;</a></h1>
+<h1 id="poisson_glm_utils-module"><code>poisson_glm_utils</code> module<a class="headerlink" href="#poisson_glm_utils-module" title="Permanent link">&para;</a></h1>
 
 
 <div class="doc doc-object doc-module">
 
 
-<a id="bs_cupid_try.min_distance_utils"></a>
+<a id="bs_cupid_try.poisson_glm_utils"></a>
   <div class="doc doc-contents first">
   
-      <p>Utility programs used in <code>min_distance.py</code>.</p>
+      <p>Utilities for Poisson GLM.</p>
 
   
 
@@ -636,21 +636,21 @@
 
 
 
-<h2 id="bs_cupid_try.min_distance_utils.MDEResults" class="doc doc-heading">
-        <code>MDEResults</code>
+<h2 id="bs_cupid_try.poisson_glm_utils.PoissonGLMResults" class="doc doc-heading">
+        <code>PoissonGLMResults</code>
 
   
   <span class="doc doc-labels">
       <small class="doc doc-label doc-label-dataclass"><code>dataclass</code></small>
   </span>
 
-<a href="#bs_cupid_try.min_distance_utils.MDEResults" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#bs_cupid_try.poisson_glm_utils.PoissonGLMResults" class="headerlink" title="Permanent link">&para;</a></h2>
 
 
   <div class="doc doc-contents ">
 
   
-      <p>The results from minimum-distance estimation and testing.</p>
+      <p>Stores and formats the estimation results.</p>
 
   <p><strong>Parameters:</strong></p>
   <table>
@@ -704,7 +704,17 @@
           </td>
         </tr>
         <tr>
-          <td><code>estimated_coefficients</code></td>
+          <td><code>number_individuals</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>int</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>estimated_gamma</code></td>
           <td>
                 <code><span title="numpy">np</span>.<span title="numpy.ndarray">ndarray</span></code>
           </td>
@@ -714,7 +724,7 @@
           </td>
         </tr>
         <tr>
-          <td><code>varcov_coefficients</code></td>
+          <td><code>varcov_gamma</code></td>
           <td>
                 <code><span title="numpy">np</span>.<span title="numpy.ndarray">ndarray</span></code>
           </td>
@@ -724,7 +734,77 @@
           </td>
         </tr>
         <tr>
-          <td><code>stderrs_coefficients</code></td>
+          <td><code>stderrs_gamma</code></td>
+          <td>
+                <code><span title="numpy">np</span>.<span title="numpy.ndarray">ndarray</span></code>
+          </td>
+          <td><p>np.ndarray</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>estimated_beta</code></td>
+          <td>
+                <code><span title="numpy">np</span>.<span title="numpy.ndarray">ndarray</span></code>
+          </td>
+          <td><p>np.ndarray</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>estimated_u</code></td>
+          <td>
+                <code><span title="numpy">np</span>.<span title="numpy.ndarray">ndarray</span></code>
+          </td>
+          <td><p>np.ndarray</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>estimated_v</code></td>
+          <td>
+                <code><span title="numpy">np</span>.<span title="numpy.ndarray">ndarray</span></code>
+          </td>
+          <td><p>np.ndarray</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>varcov_beta</code></td>
+          <td>
+                <code><span title="numpy">np</span>.<span title="numpy.ndarray">ndarray</span></code>
+          </td>
+          <td><p>np.ndarray</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>stderrs_beta</code></td>
+          <td>
+                <code><span title="numpy">np</span>.<span title="numpy.ndarray">ndarray</span></code>
+          </td>
+          <td><p>np.ndarray</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>stderrs_u</code></td>
+          <td>
+                <code><span title="numpy">np</span>.<span title="numpy.ndarray">ndarray</span></code>
+          </td>
+          <td><p>np.ndarray</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>stderrs_v</code></td>
           <td>
                 <code><span title="numpy">np</span>.<span title="numpy.ndarray">ndarray</span></code>
           </td>
@@ -743,53 +823,33 @@
               <em>required</em>
           </td>
         </tr>
-        <tr>
-          <td><code>test_statistic</code></td>
-          <td>
-                <code>float</code>
-          </td>
-          <td><p>float</p></td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>test_pvalue</code></td>
-          <td>
-                <code>float</code>
-          </td>
-          <td><p>float</p></td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>ndf</code></td>
-          <td>
-                <code>int</code>
-          </td>
-          <td><p>int</p></td>
-          <td>
-              <em>required</em>
-          </td>
-        </tr>
-        <tr>
-          <td><code>parameterized_entropy</code></td>
-          <td>
-                <code><span title="typing.Optional">Optional</span>[bool]</code>
-          </td>
-          <td><p>Optional[bool] = False</p></td>
-          <td>
-                <code>False</code>
-          </td>
-        </tr>
     </tbody>
   </table>
 
 
         <details class="quote">
-          <summary>Source code in <code>bs_cupid_try/min_distance_utils.py</code></summary>
-          <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 33</span>
+          <summary>Source code in <code>bs_cupid_try/poisson_glm_utils.py</code></summary>
+          <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 13</span>
+<span class="normal"> 14</span>
+<span class="normal"> 15</span>
+<span class="normal"> 16</span>
+<span class="normal"> 17</span>
+<span class="normal"> 18</span>
+<span class="normal"> 19</span>
+<span class="normal"> 20</span>
+<span class="normal"> 21</span>
+<span class="normal"> 22</span>
+<span class="normal"> 23</span>
+<span class="normal"> 24</span>
+<span class="normal"> 25</span>
+<span class="normal"> 26</span>
+<span class="normal"> 27</span>
+<span class="normal"> 28</span>
+<span class="normal"> 29</span>
+<span class="normal"> 30</span>
+<span class="normal"> 31</span>
+<span class="normal"> 32</span>
+<span class="normal"> 33</span>
 <span class="normal"> 34</span>
 <span class="normal"> 35</span>
 <span class="normal"> 36</span>
@@ -900,126 +960,138 @@
 <span class="normal">141</span>
 <span class="normal">142</span>
 <span class="normal">143</span>
-<span class="normal">144</span>
-<span class="normal">145</span>
-<span class="normal">146</span>
-<span class="normal">147</span>
-<span class="normal">148</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@dataclass</span>
-<span class="k">class</span> <span class="nc">MDEResults</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    The results from minimum-distance estimation and testing.</span>
+<span class="normal">144</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@dataclass</span>
+<span class="k">class</span> <span class="nc">PoissonGLMResults</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Stores and formats the estimation results.</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">        X: int</span>
 <span class="sd">        Y: int</span>
 <span class="sd">        K: int</span>
 <span class="sd">        number_households: int</span>
-<span class="sd">        estimated_coefficients: np.ndarray</span>
-<span class="sd">        varcov_coefficients: np.ndarray</span>
-<span class="sd">        stderrs_coefficients: np.ndarray</span>
+<span class="sd">        number_individuals: int</span>
+<span class="sd">        estimated_gamma: np.ndarray</span>
+<span class="sd">        varcov_gamma: np.ndarray</span>
+<span class="sd">        stderrs_gamma: np.ndarray</span>
+<span class="sd">        estimated_beta: np.ndarray</span>
+<span class="sd">        estimated_u: np.ndarray</span>
+<span class="sd">        estimated_v: np.ndarray</span>
+<span class="sd">        varcov_beta: np.ndarray</span>
+<span class="sd">        stderrs_beta: np.ndarray</span>
+<span class="sd">        stderrs_u: np.ndarray</span>
+<span class="sd">        stderrs_v: np.ndarray</span>
 <span class="sd">        estimated_Phi: np.ndarray</span>
-<span class="sd">        test_statistic: float</span>
-<span class="sd">        test_pvalue: float</span>
-<span class="sd">        ndf: int</span>
-<span class="sd">        parameterized_entropy: Optional[bool] = False</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 
     <span class="n">X</span><span class="p">:</span> <span class="nb">int</span>
     <span class="n">Y</span><span class="p">:</span> <span class="nb">int</span>
     <span class="n">K</span><span class="p">:</span> <span class="nb">int</span>
     <span class="n">number_households</span><span class="p">:</span> <span class="nb">int</span>
-    <span class="n">estimated_coefficients</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
-    <span class="n">varcov_coefficients</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
-    <span class="n">stderrs_coefficients</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
+    <span class="n">number_individuals</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">estimated_gamma</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
+    <span class="n">varcov_gamma</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
+    <span class="n">stderrs_gamma</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
+    <span class="n">estimated_beta</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
+    <span class="n">varcov_beta</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
+    <span class="n">estimated_u</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
+    <span class="n">estimated_v</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
+    <span class="n">stderrs_beta</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
+    <span class="n">stderrs_u</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
+    <span class="n">stderrs_v</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
     <span class="n">estimated_Phi</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span>
-    <span class="n">test_statistic</span><span class="p">:</span> <span class="nb">float</span>
-    <span class="n">test_pvalue</span><span class="p">:</span> <span class="nb">float</span>
-    <span class="n">ndf</span><span class="p">:</span> <span class="nb">int</span>
-    <span class="n">parameterized_entropy</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span> <span class="o">=</span> <span class="kc">False</span>
 
     <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">line_stars</span> <span class="o">=</span> <span class="s2">&quot;*&quot;</span> <span class="o">*</span> <span class="mi">80</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
-        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">parameterized_entropy</span><span class="p">:</span>
-            <span class="n">n_alpha</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">estimated_coefficients</span><span class="o">.</span><span class="n">size</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">K</span>
-            <span class="n">entropy_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;     The entropy has </span><span class="si">{</span><span class="n">n_alpha</span><span class="si">}</span><span class="s2"> parameters.&quot;</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">entropy_str</span> <span class="o">=</span> <span class="s2">&quot;     The entropy is parameter-free.&quot;</span>
-            <span class="n">n_alpha</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">print_stars</span><span class="p">(</span><span class="s2">&quot;Estimating a Choo and Siow model by Poisson GLM.&quot;</span><span class="p">)</span>
         <span class="n">model_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;The data has </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">number_households</span><span class="si">}</span><span class="s2"> households</span><span class="se">\n\n</span><span class="s2">&quot;</span>
-        <span class="n">model_str</span> <span class="o">+=</span> <span class="p">(</span>
-            <span class="sa">f</span><span class="s2">&quot;The model has </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">X</span><span class="si">}</span><span class="s2">x</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">Y</span><span class="si">}</span><span class="s2"> margins</span><span class="se">\n</span><span class="s2"> </span><span class="si">{</span><span class="n">entropy_str</span><span class="si">}</span><span class="s2"> </span><span class="se">\n</span><span class="s2">&quot;</span>
-        <span class="p">)</span>
         <span class="n">model_str</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot;We use </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">K</span><span class="si">}</span><span class="s2"> basis functions.</span><span class="se">\n\n</span><span class="s2">&quot;</span>
         <span class="n">repr_str</span> <span class="o">=</span> <span class="n">line_stars</span> <span class="o">+</span> <span class="n">model_str</span>
-        <span class="n">repr_str</span> <span class="o">+=</span> <span class="p">(</span>
-            <span class="s2">&quot;The estimated coefficients (and their standard errors) are</span><span class="se">\n\n</span><span class="s2">&quot;</span>
-        <span class="p">)</span>
-        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">parameterized_entropy</span><span class="p">:</span>
-            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coeff</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">estimated_coefficients</span><span class="p">[:</span><span class="n">n_alpha</span><span class="p">]):</span>
-                <span class="n">repr_str</span> <span class="o">+=</span> <span class="p">(</span>
-                    <span class="sa">f</span><span class="s2">&quot;   alpha(</span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">): </span><span class="si">{</span><span class="n">coeff</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  &quot;</span>
-                    <span class="o">+</span> <span class="sa">f</span><span class="s2">&quot;(</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">stderrs_coefficients</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> .3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
-                <span class="p">)</span>
-            <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
-        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coeff</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">estimated_coefficients</span><span class="p">[</span><span class="n">n_alpha</span><span class="p">:]):</span>
+        <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;The estimated basis coefficients (and their standard errors) are</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">K</span><span class="p">):</span>
             <span class="n">repr_str</span> <span class="o">+=</span> <span class="p">(</span>
-                <span class="sa">f</span><span class="s2">&quot;   base </span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">coeff</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2"> &quot;</span>
-                <span class="o">+</span> <span class="sa">f</span><span class="s2">&quot;(</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">stderrs_coefficients</span><span class="p">[</span><span class="n">n_alpha</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> .3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
+                <span class="sa">f</span><span class="s2">&quot;   base_</span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">estimated_beta</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  &quot;</span>
+                <span class="o">+</span> <span class="sa">f</span><span class="s2">&quot;(</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">stderrs_beta</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> .3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
             <span class="p">)</span>
-        <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Specification test:</span><span class="se">\n</span><span class="s2">&quot;</span>
-        <span class="n">repr_str</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot;   the value of the test statistic is </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">test_statistic</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span>
-        <span class="n">repr_str</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot;     for a chi2(</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">ndf</span><span class="si">}</span><span class="s2">), the p-value is </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">test_pvalue</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span>
+        <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;The estimated utilities of men (and their standard errors) are</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">X</span><span class="p">):</span>
+            <span class="n">repr_str</span> <span class="o">+=</span> <span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;   u_</span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">estimated_u</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  &quot;</span>
+                <span class="o">+</span> <span class="sa">f</span><span class="s2">&quot;(</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">stderrs_u</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> .3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
+        <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;The estimated utilities of women (and their standard errors) are</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">Y</span><span class="p">):</span>
+            <span class="n">repr_str</span> <span class="o">+=</span> <span class="p">(</span>
+                <span class="sa">f</span><span class="s2">&quot;   v </span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">estimated_v</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  &quot;</span>
+                <span class="o">+</span> <span class="sa">f</span><span class="s2">&quot;(</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">stderrs_v</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> .3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
         <span class="k">return</span> <span class="n">repr_str</span> <span class="o">+</span> <span class="n">line_stars</span>
 
     <span class="k">def</span> <span class="nf">print_results</span><span class="p">(</span>
-        <span class="bp">self</span><span class="p">,</span> <span class="n">true_coeffs</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">n_alpha</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span> <span class="o">|</span> <span class="nb">float</span><span class="p">:</span>
-        <span class="n">estimates</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">estimated_coefficients</span>
-        <span class="n">stderrs</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">stderrs_coefficients</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">lambda_true</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">u_true</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">v_true</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span> <span class="o">|</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">estimates_beta</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">estimated_beta</span>
+        <span class="n">stderrs_beta</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">stderrs_beta</span>
 
-        <span class="k">if</span> <span class="n">true_coeffs</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
-            <span class="n">repr_str</span> <span class="o">=</span> <span class="p">(</span>
-                <span class="s2">&quot;The true and estimated coefficients &quot;</span>
-                <span class="o">+</span> <span class="s2">&quot;(and their standard errors) are</span><span class="se">\n\n</span><span class="s2">&quot;</span>
-            <span class="p">)</span>
-            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coeff</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">estimates</span><span class="p">[:</span><span class="n">n_alpha</span><span class="p">]):</span>
-                <span class="n">repr_str</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot;   alpha(</span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">): </span><span class="si">{</span><span class="n">true_coeffs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">&quot;</span>
-                <span class="n">repr_str</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">coeff</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  (</span><span class="si">{</span><span class="n">stderrs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
-                <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
-            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coeff</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">estimates</span><span class="p">[</span><span class="n">n_alpha</span><span class="p">:]):</span>
-                <span class="n">j</span> <span class="o">=</span> <span class="n">n_alpha</span> <span class="o">+</span> <span class="n">i</span>
+        <span class="k">if</span> <span class="n">lambda_true</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">repr_str</span> <span class="o">=</span> <span class="s2">&quot;The  estimated coefficients &quot;</span>
+            <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;(and their standard errors) are</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coeff</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">estimates_beta</span><span class="p">):</span>
                 <span class="n">repr_str</span> <span class="o">+=</span> <span class="p">(</span>
-                    <span class="sa">f</span><span class="s2">&quot;   base </span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">true_coeffs</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  &quot;</span>
-                    <span class="o">+</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">coeff</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  (</span><span class="si">{</span><span class="n">stderrs</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
+                    <span class="sa">f</span><span class="s2">&quot; </span><span class="si">{</span><span class="n">coeff</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  (</span><span class="si">{</span><span class="n">stderrs_beta</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
                 <span class="p">)</span>
             <span class="n">print_stars</span><span class="p">(</span><span class="n">repr_str</span><span class="p">)</span>
-            <span class="n">discrepancy</span> <span class="o">=</span> <span class="n">npmaxabs</span><span class="p">(</span><span class="n">true_coeffs</span> <span class="o">-</span> <span class="n">estimates</span><span class="p">)</span>
-            <span class="n">print_stars</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The true-estimated discrepancy is </span><span class="si">{</span><span class="n">discrepancy</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="n">repr_str</span> <span class="o">=</span> <span class="p">(</span>
-                <span class="s2">&quot;The estimated coefficients &quot;</span>
-                <span class="o">+</span> <span class="s2">&quot;(and their standard errors) are</span><span class="se">\n\n</span><span class="s2">&quot;</span>
-            <span class="p">)</span>
-            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coeff</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">estimates</span><span class="p">[:</span><span class="n">n_alpha</span><span class="p">]):</span>
-                <span class="n">repr_str</span> <span class="o">+</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">coeff</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  (</span><span class="si">{</span><span class="n">stderrs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
-                <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
-            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coeff</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">estimates</span><span class="p">[</span><span class="n">n_alpha</span><span class="p">:]):</span>
-                <span class="n">j</span> <span class="o">=</span> <span class="n">n_alpha</span> <span class="o">+</span> <span class="n">i</span>
-                <span class="n">repr_str</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">coeff</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  (</span><span class="si">{</span><span class="n">stderrs</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
+            <span class="n">repr_str</span> <span class="o">=</span> <span class="s2">&quot;The  true and estimated coefficients &quot;</span>
+            <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;(and their standard errors) are</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coeff</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">estimates_beta</span><span class="p">):</span>
+                <span class="n">repr_str</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot;   base </span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">lambda_true</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2"> &quot;</span>
+                <span class="n">repr_str</span> <span class="o">+=</span> <span class="p">(</span>
+                    <span class="sa">f</span><span class="s2">&quot; </span><span class="si">{</span><span class="n">coeff</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  (</span><span class="si">{</span><span class="n">stderrs_beta</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
+                <span class="p">)</span>
+            <span class="n">print_stars</span><span class="p">(</span><span class="n">repr_str</span><span class="p">)</span>
 
-        <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Specification test:</span><span class="se">\n</span><span class="s2">&quot;</span>
-        <span class="n">repr_str</span> <span class="o">+=</span> <span class="p">(</span>
-            <span class="s2">&quot;   the value of the test statistic is &quot;</span>
-            <span class="o">+</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">test_statistic</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span>
-        <span class="p">)</span>
-        <span class="n">repr_str</span> <span class="o">+=</span> <span class="p">(</span>
-            <span class="sa">f</span><span class="s2">&quot;     for a chi2(</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">ndf</span><span class="si">}</span><span class="s2">), &quot;</span>
-            <span class="o">+</span> <span class="sa">f</span><span class="s2">&quot;the p-value is </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">test_pvalue</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span>
-        <span class="p">)</span>
-        <span class="n">print_stars</span><span class="p">(</span><span class="n">repr_str</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">true_coeffs</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">estimates_u</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">estimated_u</span>
+        <span class="n">stderrs_u</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">stderrs_u</span>
+
+        <span class="k">if</span> <span class="n">u_true</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">repr_str</span> <span class="o">=</span> <span class="s2">&quot;The estimated utilities for men  &quot;</span>
+            <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;(and their standard errors) are:</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coeff</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">estimates_u</span><span class="p">):</span>
+                <span class="n">repr_str</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot; </span><span class="si">{</span><span class="n">coeff</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  (</span><span class="si">{</span><span class="n">stderrs_u</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
+            <span class="n">print_stars</span><span class="p">(</span><span class="n">repr_str</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">repr_str</span> <span class="o">=</span> <span class="s2">&quot;The true and estimated utilities for men&quot;</span>
+            <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;(and their standard errors) are:</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coeff</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">estimates_u</span><span class="p">):</span>
+                <span class="n">repr_str</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot;   u_</span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">u_true</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2"> &quot;</span>
+                <span class="n">repr_str</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot; </span><span class="si">{</span><span class="n">coeff</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  (</span><span class="si">{</span><span class="n">stderrs_u</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
+            <span class="n">print_stars</span><span class="p">(</span><span class="n">repr_str</span><span class="p">)</span>
+
+        <span class="n">estimates_v</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">estimated_v</span>
+        <span class="n">stderrs_v</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">stderrs_v</span>
+        <span class="k">if</span> <span class="n">v_true</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">repr_str</span> <span class="o">=</span> <span class="s2">&quot;The estimated utilities for women  &quot;</span>
+            <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;(and their standard errors) are:</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coeff</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">estimates_v</span><span class="p">):</span>
+                <span class="n">repr_str</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot; </span><span class="si">{</span><span class="n">coeff</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  (</span><span class="si">{</span><span class="n">stderrs_v</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
+            <span class="n">print_stars</span><span class="p">(</span><span class="n">repr_str</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">repr_str</span> <span class="o">=</span> <span class="s2">&quot;The true and estimated utilities for women&quot;</span>
+            <span class="n">repr_str</span> <span class="o">+=</span> <span class="s2">&quot;(and their standard errors) are:</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">coeff</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">estimates_v</span><span class="p">):</span>
+                <span class="n">repr_str</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot;   v_</span><span class="si">{</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">v_true</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2"> &quot;</span>
+                <span class="n">repr_str</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot; </span><span class="si">{</span><span class="n">coeff</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">  (</span><span class="si">{</span><span class="n">stderrs_v</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2"> &gt; 10.3f</span><span class="si">}</span><span class="s2">)</span><span class="se">\n</span><span class="s2">&quot;</span>
+            <span class="n">print_stars</span><span class="p">(</span><span class="n">repr_str</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">lambda_true</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">None</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">discrepancy</span> <span class="o">=</span> <span class="n">npmaxabs</span><span class="p">(</span><span class="n">lambda_true</span> <span class="o">-</span> <span class="n">estimates_beta</span><span class="p">)</span>
+            <span class="n">print_stars</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The true-estimated discrepancy is </span><span class="si">{</span><span class="n">discrepancy</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
             <span class="k">return</span> <span class="n">discrepancy</span>
-        <span class="k">return</span> <span class="kc">None</span>
 </code></pre></div></td></tr></table></div>
         </details>
 
@@ -1071,7 +1143,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../min_distance/" class="md-footer__link md-footer__link--prev" aria-label="Previous: MDE estimator" rel="prev">
+        <a href="../poisson_glm/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Poisson estimator" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -1080,20 +1152,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              MDE estimator
+              Poisson estimator
             </div>
           </div>
         </a>
       
       
         
-        <a href="../poisson_glm/" class="md-footer__link md-footer__link--next" aria-label="Next: Poisson estimator" rel="next">
+        <a href="../entropy/" class="md-footer__link md-footer__link--next" aria-label="Next: Entropy utilities" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Poisson estimator
+              Entropy utilities
             </div>
           </div>
           <div class="md-footer__button md-icon">

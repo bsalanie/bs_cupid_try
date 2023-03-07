@@ -1,17 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>None</loc>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/</loc>
          <lastmod>2023-03-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/choo_siow/</loc>
          <lastmod>2023-03-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/choo_siow_gender_heteroskedastic/</loc>
+         <lastmod>2023-03-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/choo_siow_heteroskedastic/</loc>
+         <lastmod>2023-03-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/entropy/</loc>
+         <lastmod>2023-03-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/ipfp_solvers/</loc>
+         <lastmod>2023-03-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/matching_utils/</loc>
+         <lastmod>2023-03-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/min_distance/</loc>
+         <lastmod>2023-03-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/min_distance_utils/</loc>
+         <lastmod>2023-03-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/model_classes/</loc>
+         <lastmod>2023-03-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/nested_logit/</loc>
+         <lastmod>2023-03-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/poisson_glm/</loc>
+         <lastmod>2023-03-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/poisson_glm_utils/</loc>
+         <lastmod>2023-03-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.pages.io/bsalanie/cupidmatching2/utils/</loc>
          <lastmod>2023-03-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
