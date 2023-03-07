@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cupid_matching" class="md-skip">
+        <a href="#bs_cupid_try-version-2" class="md-skip">
           Skip to content
         </a>
       
@@ -622,30 +622,31 @@
   </a>
 
 
-<h1 id="cupid_matching">cupid_matching<a class="headerlink" href="#cupid_matching" title="Permanent link">&para;</a></h1>
-<p><a href="https://pypi.python.org/pypi/cupid_matching"><img alt="image" src="https://img.shields.io/pypi/v/cupid_matching.svg" /></a>
-<a href="https://cupid_matching.gishub.org"><img alt="image" src="https://github.com/bsalanie/cupid_matching/workflows/docs/badge.svg" /></a>
-<a href="https://github.com/bsalanie/cupid_matching/actions?query=workflow%3Abuild"><img alt="image" src="https://github.com/bsalanie/cupid_matching/workflows/build/badge.svg" /></a>
+<h1 id="bs_cupid_try-version-2">bs_cupid_try version 2<a class="headerlink" href="#bs_cupid_try-version-2" title="Permanent link">&para;</a></h1>
+<!-- [![image](https://img.shields.io/pypi/v/bs_cupid_try.svg)](https://pypi.python.org/pypi/bs_cupid_try) -->
+
+<p><a href="https://bs_cupid_try.gishub.org"><img alt="image" src="https://github.com/bsalanie/bs_cupid_try/workflows/docs/badge.svg" /></a></p>
+<p><a href="https://github.com/bsalanie/bs_cupid_try/actions?query=workflow%3Abuild"><img alt="image" src="https://github.com/bsalanie/bs_cupid_try/workflows/build/badge.svg" /></a>
 <a href="https://opensource.org/licenses/MIT"><img alt="image" src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a></p>
 <p><strong>A Python package to solve, simulate and estimate separable matching models</strong></p>
 <ul>
 <li>Free software: MIT license</li>
-<li>Documentation: <a href="https://bsalanie.github.io/cupid_matching">https://bsalanie.github.io/cupid_matching</a></li>
-<li>See also: <a href="https://share.streamlit.io/bsalanie/cupid_matching_st/main/cupid_streamlit.py">An interactive Streamlit app</a></li>
+<li>Documentation: <a href="https://bsalanie.github.io/bs_cupid_try">https://bsalanie.github.io/bs_cupid_try</a></li>
+<li>See also: <a href="https://share.streamlit.io/bsalanie/bs_cupid_try_st/main/cupid_streamlit.py">An interactive Streamlit app</a></li>
 </ul>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>pip install -U cupid_matching
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>pip install -U bs_cupid_try
 </code></pre></div></td></tr></table></div>
 <h2 id="accessing-the-code">Accessing the code<a class="headerlink" href="#accessing-the-code" title="Permanent link">&para;</a></h2>
-<p>For instance:
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">cupid_matching.min_distance</span> <span class="kn">import</span> <span class="n">estimate_semilinear_mde</span>
-</code></pre></div></td></tr></table></div></p>
+<p>For instance:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">from</span> <span class="nn">bs_cupid_try.min_distance</span> <span class="kn">import</span> <span class="n">estimate_semilinear_mde</span>
+</code></pre></div></td></tr></table></div>
 <h2 id="an-example">An example<a class="headerlink" href="#an-example" title="Permanent link">&para;</a></h2>
-<p>We create a Choo-Siow market; we solve for the stable matching 
+<p>We create a Choo-Siow market; we solve for the stable matching
 in an infinite ppulation using IPFP; we simulate a sample drawn
 from the stable matching and we estimate the coefficients
 of the basis functions using both minimum distance
-and Poisson GLM estimators.
+and Poisson GLM estimators.</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
@@ -694,10 +695,10 @@ and Poisson GLM estimators.
 <span class="normal">46</span>
 <span class="normal">47</span>
 <span class="normal">48</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">from</span> <span class="nn">cupid_matching.model_classes</span> <span class="kn">import</span> <span class="n">ChooSiowPrimitives</span>
-<span class="kn">from</span> <span class="nn">cupid_matching.choo_siow</span> <span class="kn">import</span> <span class="n">entropy_choo_siow</span>
-<span class="kn">from</span> <span class="nn">cupid_matching.min_distance</span> <span class="kn">import</span> <span class="n">estimate_semilinear_mde</span>
-<span class="kn">from</span> <span class="nn">cupid_matching.poisson_glm</span> <span class="kn">import</span> <span class="n">choo_siow_poisson_glm</span>
+<span class="kn">from</span> <span class="nn">bs_cupid_try.model_classes</span> <span class="kn">import</span> <span class="n">ChooSiowPrimitives</span>
+<span class="kn">from</span> <span class="nn">bs_cupid_try.choo_siow</span> <span class="kn">import</span> <span class="n">entropy_choo_siow</span>
+<span class="kn">from</span> <span class="nn">bs_cupid_try.min_distance</span> <span class="kn">import</span> <span class="n">estimate_semilinear_mde</span>
+<span class="kn">from</span> <span class="nn">bs_cupid_try.poisson_glm</span> <span class="kn">import</span> <span class="n">choo_siow_poisson_glm</span>
 
 <span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">,</span> <span class="n">K</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">2</span>
 <span class="c1"># we simulate a Choo and Siow population</span>
@@ -721,7 +722,7 @@ and Poisson GLM estimators.
 
 <span class="c1"># We estimate the parameters using minimum distance</span>
 <span class="n">mde_results</span> <span class="o">=</span> <span class="n">estimate_semilinear_mde</span><span class="p">(</span>
-            <span class="n">mus_sim</span><span class="p">,</span> <span class="n">phi_bases</span><span class="p">,</span> <span class="n">entropy_choo_siow</span><span class="p">,</span> 
+            <span class="n">mus_sim</span><span class="p">,</span> <span class="n">phi_bases</span><span class="p">,</span> <span class="n">entropy_choo_siow</span><span class="p">,</span>
             <span class="n">more_params</span><span class="o">=</span><span class="kc">None</span>
         <span class="p">)</span>
 
@@ -730,18 +731,18 @@ and Poisson GLM estimators.
             <span class="n">true_coeffs</span><span class="o">=</span><span class="n">lambda_true</span><span class="p">,</span> <span class="n">n_alpha</span><span class="o">=</span><span class="mi">0</span>
         <span class="p">)</span>
 
-<span class="c1"># we also estimate using Poisson GLM </span>
+<span class="c1"># we also estimate using Poisson GLM</span>
 <span class="n">poisson_results</span> <span class="o">=</span> <span class="n">choo_siow_poisson_glm</span><span class="p">(</span><span class="n">mus_sim</span><span class="p">,</span> <span class="n">phi_bases</span><span class="p">)</span>
 
 <span class="n">muxy_sim</span><span class="p">,</span> <span class="n">mux0_sim</span><span class="p">,</span> <span class="n">mu0y_sim</span><span class="p">,</span> <span class="n">n_sim</span><span class="p">,</span> <span class="n">m_sim</span> \
     <span class="o">=</span> <span class="n">mus_sim</span><span class="o">.</span><span class="n">unpack</span><span class="p">()</span>
 
 <span class="n">poisson_discrepancy</span> <span class="o">=</span> <span class="n">poisson_results</span><span class="o">.</span><span class="n">print_results</span><span class="p">(</span>
-        <span class="n">lambda_true</span><span class="p">,</span> 
-        <span class="n">u_true</span><span class="o">=-</span><span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">mux0_sim</span><span class="o">/</span> <span class="n">n_sim</span><span class="p">),</span> 
+        <span class="n">lambda_true</span><span class="p">,</span>
+        <span class="n">u_true</span><span class="o">=-</span><span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">mux0_sim</span><span class="o">/</span> <span class="n">n_sim</span><span class="p">),</span>
         <span class="n">v_true</span><span class="o">=-</span><span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">mu0y_sim</span> <span class="o">/</span> <span class="n">m_sim</span><span class="p">)</span>
     <span class="p">)</span>
-</code></pre></div></td></tr></table></div></p>
+</code></pre></div></td></tr></table></div>
 
 
 
